@@ -1,0 +1,114 @@
+html,body,#app{
+    height: 100%;
+    color: #333;
+    font: 14px/28px 'Microsoft YaHei',Helvetica, Arial, Tahoma;
+}
+ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+textarea{
+  overflow: auto;
+  resize: none;
+}
+*{margin: 0;padding:0;}
+/* 滚动条控制 */
+::-webkit-input-placeholder {
+    color: #D5D8DC;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:vertical {
+    height: 4px;
+    background-color: #d5d5d5;
+    -webkit-border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #d5d5d5;
+    -webkit-border-radius: 4px;
+  }
+  .el-dialog__wrapper .el-dialog__header{
+    background-color: #f0f3f5;
+  }
+  .el-dialog__wrapper .el-dialog__body{
+    padding-top:10px;
+  }
+  .el-collapse-item__content{padding-bottom:0;}
+  .el-collapse-item__header,.el-collapse-item__wrap, .el-collapse-item__content{
+      background: transparent;color: #333333;font-size:14px;
+  }
+  .el-select{display: block;}
+  .faqContainer .el-tabs__nav{margin-left:14px;}
+
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* flex */
+.flex{display: flex;}
+.flex_center{align-items:center;}
+.justify_content{justify-content: space-between}
+.justify_center{justify-content: space-around}
+.flex_column{flex-direction:column;}
+.grow1{flex-grow: 1;flex-shrink: 1;}
+.grow0{flex-grow: 0;flex-shrink: 0;}
+.ellipsis{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.lightColor{
+  color: #999;
+}
+.smallText{
+  font-size:12px;
+}
+.scroll_auto{overflow-y:auto;overflow-x: hidden;}
+.center{text-align: center;}
+.userAvator{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right:14px;
+}
+.padding10{
+  padding: 10px;
+}
+.red_color{color: #ff6c60;}
+.blue_color{color:#4598ff;cursor: pointer;}
+.closeBtn {
+  font-size: 18px;
+  cursor: pointer;
+  color: #999;
+}
+.closeBtn:hover {
+  color: #ff6c60;
+}
+.pointer{cursor: pointer}
+.asideTitle {
+  height: 28px;
+  line-height: 28px;
+  font-weight: bold;
+  padding: 10px;
+}
+.showTreeMenu{position: fixed;max-height:210px;overflow: auto;}
+.userIcon,.groupIcon{font-size:24px;width:40px;height: 40px;text-align: center;line-height: 40px;background: #5aa2fa;color: #fff;border-radius: 50%;}
+.userIcon{
+  background: transparent;color: #999;font-size:38px;
+}
+.refreshBtn{position: absolute;bottom:10px;right: 10px;color:#4598ff;font-size:30px;}
+.el-dialog__header{
+  padding: 8px 20px;
+}
